@@ -1,0 +1,107 @@
+.contribute{
+	opacity: 0.5;
+	font-style: italic; 
+	.contribute_link{
+
+	}
+}
+
+.sharing_content{
+	margin: 15px auto 0;
+	display: block;
+	width: 75%;
+	li{
+		list-style: none;
+		display: inline;
+		font-size: large;
+		margin-right: 15px;
+	}
+}
+
+a[class^="compare-link-"]{
+	&:before{
+		content: "\f096";
+		display: inline-block;
+		  font: normal normal normal 14px/1 FontAwesome;
+		  font-size: inherit;
+		  text-rendering: auto;
+		  -webkit-font-smoothing: antialiased;
+		  -moz-osx-font-smoothing: grayscale;
+		  transform: translate(0, 0);
+		  font-size: 1em;
+		padding: .25em;
+		
+		position: relative;
+		opacity: 0.8; 
+	}
+	&.comparing{
+		&:before{
+			content: "\f14a" !important;
+		}
+	}
+}
+
+.comparing-gyms-container{
+	width: 50%;
+	padding-right:10px;
+	.button{
+		text-decoration: underline;
+		padding: 3px 5px;
+		cursor:pointer;
+		 
+	}
+	.title{
+		padding-right: 25px;
+	}
+	.comparing_inner_container{
+		padding-right: 18px;
+		text-align:right;
+		span{
+			cursor:pointer;
+			display: inline-block;
+			color: #f4f4f2 ;
+			background: #474747 ;
+			margin-right: 0px;
+			padding:3px 7px;
+			margin-top: 3px;
+			text-align:center;
+			&:after{
+				content:'X';
+				font-weight: 100;
+				font-size: 8px;
+				padding-left: 5px;
+				position: relative;
+				bottom: 1px;
+
+			}
+		}
+	} 
+}
+
+.brand{
+	a{
+		font-family: 'Exo', sans-serif !important;
+		font-size:2.25em;
+	}
+	.slogan{
+		font-size:0.5em !important;
+	}
+}
+.modal-window .modal-wrapper .modal-body .gallery .features{
+	padding: 20px 10px !important;
+}
+
+.modal-body{
+	h2{
+		color: #FFF;
+		margin-bottom: 0px;
+		max-height: 34px;
+		overflow: hidden; 
+	}
+	figure{
+		color: #fff;
+	}
+	.rating .stars .fa.active{
+		color:#fff;
+	}
+}
